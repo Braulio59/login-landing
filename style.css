@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400;1,700&family=Poppins:wght@300;400;600;700;900&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    color: black;
+} 
+
+.container {
+    background: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    background: white;
+    gap: 20px;
+    box-shadow:  0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login img {
+    width: 130px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+input[type="submit"] {
+    background-color: #17214d;
+    color: white; 
+    margin: 20px 0;
+    cursor: pointer;
+} 
+
+.login a {
+    text-decoration: none; 
+    color: black;
+    border: 1px solid;
+    padding: 5px 10px; 
+    border-radius: 50px;
+}
+
+.login a:hover {
+    background: #1e1e1e;
+    color: white;
+}
